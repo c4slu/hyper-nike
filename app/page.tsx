@@ -8,8 +8,7 @@ import bolha from "@/public/glassliquid.svg";
 export default function Home() {
   return (
     <div
-      className={`h-screen bg-no-repeat bg-right bg-cover overflow-y-hidden bg-custom-bg bg-black text-white`}
-    >
+      className={`h-screen bg-no-repeat bg-right bg-cover overflow-y-hidden overflow-x-hidden bg-custom-bg bg-black text-white`}>
       <div className="px-24 py-9 z-[999] relative">
         <Nav />
       </div>
