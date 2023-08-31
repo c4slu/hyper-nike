@@ -7,11 +7,7 @@ import bolha from "@/public/glassliquid.svg";
 
 export default function Home() {
   return (
-    <div
-      className={`h-screen bg-no-repeat bg-right bg-cover overflow-y-hidden overflow-x-hidden bg-custom-bg bg-black text-white`}>
-      <div className="px-24 py-9 z-[999] relative">
-        <Nav />
-      </div>
+    <div>
       <div className="h-[calc(100vh-10.25rem)] flex items-center">
         <div className="px-24">
           <p className="text-xs">Lançamento:</p>
@@ -22,12 +18,11 @@ export default function Home() {
             <br /> <span className="italic">ADAPT</span>
           </h1>
           <p className="w-[24rem] h-[9rem] mt-10">
-            Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Fugit facilis quibusdam vitae
-            ex beatae odio nam nobis maiores rem blanditiis.
-            Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Ipsa a libero at sapiente,
-            blanditiis quos excepturi quo unde id omnis!
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            facilis quibusdam vitae ex beatae odio nam nobis maiores rem
+            blanditiis. Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Ipsa a libero at sapiente, blanditiis quos excepturi quo unde
+            id omnis!
           </p>
           <div className="flex gap-[2rem] items-center ">
             <Button className="bg-gradient-to-r from-green-300 font-bold blur-md  to-purple-400 text-black rounded-3xl w-[10rem] h-[3.5rem] mt-10">
@@ -40,19 +35,14 @@ export default function Home() {
               Add in Cart
             </Button>
           </div>
-          <Image
-            src={bolha}
-            className="absolute bottom-0"
-            alt=""
-            width={300}
-          />
+          <Image src={bolha} className="absolute bottom-0" alt="" width={300} />
         </div>
         <Image
           src={hyper}
           alt=""
-          className="mt-10 "
-          width={1159.37}
-          height={971.8}
+          className="mt-10 pr-20"
+          width={900}
+          height={900}
         />
       </div>
     </div>
